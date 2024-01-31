@@ -19,3 +19,9 @@ class BaseCaching():
 
    # If key or item is None 
    catch_data = self.cache_data(key)
+
+    def get(self, key):
+        '''return the value in `self.cache_data` linked to `key`
+        '''
+
+        return self.cache_data.get(key, None)
