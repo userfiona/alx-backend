@@ -2,6 +2,8 @@
 
 """Basic dictionary"""
 
+from base_caching import BaseCaching
+
 
 class BaseCaching():
     """ BaseCaching defines:
